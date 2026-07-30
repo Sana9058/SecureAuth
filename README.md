@@ -7,6 +7,19 @@ A production-ready MERN stack authentication system featuring JWT access & refre
 
 ---
 
+## 🚀 Live Demo
+
+### Frontend
+https://secure-auth-sepia-mu.vercel.app
+
+### Backend API
+https://secureauth-backend-2pw0.onrender.com
+
+### GitHub Repository
+https://github.com/Sana9058/SecureAuth
+
+---
+
 ## Project Overview
 
 SecureAuth implements industry-standard two-token authentication:
@@ -32,6 +45,30 @@ The frontend uses Axios interceptors to automatically refresh expired access tok
 - Postman collection included
 
 ---
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](./images/home.png)
+
+---
+
+### Register Page
+
+![Register Page](./images/register.png)
+
+---
+
+### Login Page
+
+![Login Page](./images/login.png)
+
+---
+
+### Dashboard
+
+![Dashboard](./images/dashboard.png)
 
 ## Technology Stack
 
@@ -194,7 +231,7 @@ Response (200):
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sana9058/SecureAuth.git
 cd SecureAuth
 ```
 
@@ -328,7 +365,7 @@ Set the `baseUrl` variable to your API URL (default: `http://localhost:5000/api`
 ### Backend — Render
 
 1. Push code to GitHub
-2. Create a new **Web Service** on [Render](https://render.com)
+2. Create a new **Web Service** on [Render](https://secureauth-backend-2pw0.onrender.com)
 3. Connect your repository
 4. Set root directory to `server`
 5. Build command: `npm install`
@@ -342,7 +379,7 @@ Set the `baseUrl` variable to your API URL (default: `http://localhost:5000/api`
 
 ### Frontend — Vercel
 
-1. Create a new project on [Vercel](https://vercel.com)
+1. Create a new project on [Vercel](https://secure-auth-sepia-mu.vercel.app)
 2. Connect your repository
 3. Set root directory to `client`
 4. Framework preset: **Vite**
@@ -352,11 +389,14 @@ Set the `baseUrl` variable to your API URL (default: `http://localhost:5000/api`
 
 ### Production Checklist
 
-- [ ] Use strong, unique JWT secrets
-- [ ] Restrict MongoDB Atlas IP whitelist in production
-- [ ] Set `CLIENT_URL` to production frontend URL
-- [ ] Enable HTTPS on both frontend and backend
-- [ ] Never commit `.env` files
+- ✅ MongoDB Atlas configured
+- ✅ Render deployment completed
+- ✅ Vercel deployment completed
+- ✅ Environment variables configured
+- ✅ JWT authentication implemented
+- ✅ Refresh token implemented
+- ✅ React Router refresh issue fixed
+- ✅ CORS configured
 
 ---
 
